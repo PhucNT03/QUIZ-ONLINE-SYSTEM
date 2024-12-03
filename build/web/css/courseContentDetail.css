@@ -1,0 +1,84 @@
+
+.tab {
+    overflow: hidden;
+    padding: auto;
+    width: 33vw;
+    border-style: none none ridge none;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    margin: 0px 0.5vw;
+    transition: 0.3s;
+    font-size: 17px;
+    width: 9.5vw;
+    font-weight: bold;
+    color: #d3d3d3;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    border-style: none none solid none;
+    border-color: #63b8ff;
+    color: #63b8ff;
+}
+
+/* Style the tab content */
+.tabcontent {
+    margin-top: 3px;
+    display: none;
+    padding: 6px 12px;
+    border: 2px ridge #ccc;
+    min-height: 70vh;
+    max-height: 90vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.checkbox-menu li label {
+    display: block;
+    padding: 3px 10px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+    margin:0;
+    transition: background-color .4s ease;
+}
+.checkbox-menu li input {
+    margin: 0px 5px;
+    top: 2px;
+    position: relative;
+}
+
+.checkbox-menu li.active label {
+    background-color: #cbcbff;
+    font-weight:bold;
+}
+
+.checkbox-menu li label:hover,
+.checkbox-menu li label:focus {
+    background-color: #f5f5f5;
+}
+
+.checkbox-menu li.active label:hover,
+.checkbox-menu li.active label:focus {
+    background-color: #b8b8ff;
+}
+
+.inputBorderless{
+    border: none;
+    background-color: transparent;
+}

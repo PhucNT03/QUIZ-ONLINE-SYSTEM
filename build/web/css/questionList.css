@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+body { 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:white;
+    font-family: Times new roman;
+}
+
+h2{
+    font-family:  'Dancing Script', cursive;
+}
+
+#form{
+    background: whitesmoke;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border: solid #00c6ff 1px;
+    margin: 10px;
+    
+}
+
+table th , table td{
+    text-align: center;
+}
+
+
+.pagination li:hover{
+    cursor: pointer;
+}
+table tbody tr {
+    display: none;
+}
+.container .form-control{
+    border-radius: 5px;
+    border: solid 1px;
+}
+
+

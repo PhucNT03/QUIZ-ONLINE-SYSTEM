@@ -1,0 +1,39 @@
+
+.tab {
+    overflow: hidden;
+    padding: auto;
+    width: 33vw;
+    border-style: none none none none;
+    margin-left: 10px;
+}
+.tab {
+    border:none;
+}
+.choose .active,.tab .active{
+    border: #4472c4 3px solid;
+    background-color: white;
+    color:#4472c4;
+    font-weight: bold;
+    opacity:1;
+    font-size:120%;
+}
+.choose a, .tab a{
+    border: 1px solid black;
+    margin-bottom: 10px;
+    opacity: 0.7;
+    font-size:110%;
+}
+.choose a:hover, .tab a:hover{
+    color: #4472c4;
+    font-weight: bold;
+    opacity:1;
+    font-size:120%;
+}
+.date input{
+    border:2px solid #4472c4;
+    font-weight: 600;
+}
+#info{
+    border: 1px solid #4472c4;
+    margin:2px;
+}
